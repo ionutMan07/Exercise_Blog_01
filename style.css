@@ -9,7 +9,7 @@
 }
 
 body{
-    margin:50px 50px;
+    margin:auto;
     display: flex;
 }
 img{
@@ -38,8 +38,12 @@ img{
     margin-right: auto;
 }
 p{
-    padding-right: 50%;
+    padding-right: 10px;
 }
 @media screen and (max-width: 600px) {
-body, .leftnav, p, .rightnav {margin:5px; padding: 5px; width:auto;}
-}
+    body {margin: 5px; padding:5px;}
+  }
+  @media screen and (min-width: 600px) {
+    body {
+      padding: 0px 150px 0 150px;
+      margin:20px 20px 0px 20px;}
